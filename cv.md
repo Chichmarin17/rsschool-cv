@@ -66,6 +66,6 @@ _________________
 LANGUAGES
 ---------
 1. Russian (native speaker);
-2. Belarussian (native speaker);
+2. Belarusian (native speaker);
 3. Ukranian (advanced level);
 4. English (B1 level).
