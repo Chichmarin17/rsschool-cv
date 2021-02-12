@@ -1,13 +1,14 @@
 Nikolai Troshev
 ==============
-_______________
+______________
 
 CONTACTS
 --------
 - E-mail <pits1917burg@gmail.com>
 - Telegram @Tryken
 - tel. +375447367494
-_________________________________
+
+_____________
 
 ABOUT ME
 --------
@@ -17,4 +18,5 @@ ABOUT ME
 - ready to learn new skills with passion and curiosity;
 - highly motivated and oranized;
 - good team worker;
-_____________________
+
+_____________
