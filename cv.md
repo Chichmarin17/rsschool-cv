@@ -17,7 +17,7 @@ ABOUT ME
 - like to create web-pages, fill it with content, make usable and intuitive interfaces;
 - ready to learn new skills with passion and curiosity;
 - highly motivated and oranized;
-- good team worker;
+- good team worker.
 
 _____________
 
@@ -27,7 +27,7 @@ SKILLS
 2. CSS3 (SASS, adaptive layout, BEM);
 3. JavaScript (ES6, OOP);
 4. GIT;
-5. Python (basic concepts, OOP);
+5. Python (basic concepts, OOP).
 
 ______________
 
@@ -59,7 +59,7 @@ ________________
 EDUCATION
 ---------
 - [Gomel State Medical University](https://gsmu.by/) - 2013-2019;
-- [Gomel State Regional Lyceum](https://gsrl.by/) - 2011-2013;
+- [Gomel State Regional Lyceum](https://gsrl.by/) - 2011-2013.
 
 _________________
 
