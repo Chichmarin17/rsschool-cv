@@ -1,16 +1,78 @@
 .wrapper {
     margin: 0 auto;
-    max-width: 900px;
-    display: flex;
-    flex-direction: row;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
     border: 1px solid black;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+ul > li {
+    margin-bottom: 7px;
 }
 .main-photo-img {
     /* max-width: 200px; */
-    height: 300px;
+    height: 280px;
+    margin-bottom: 40px;
 }
 .sidebar {
-    flex-basis: 40%;
+    background-color: #514E4E;
+    color: #fff;
+}
+.sidebar-article {
+    margin: 0px 5px 20px 5px;
+}
+.sidebar-article > h2 {
+    display: block;
+    margin-bottom: 10px;
+
+}
+.contacts__list > li {
+    display: flex;
+    flex-direction: row;
+}
+.contacts__img {
+    margin-right: 20px;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: justify;
+    padding-right: 20px;
+}
+.main-header {
+    text-align: center;
+}
+.main-article:not(:last-child) {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #594E02;
+}
+.main-article > h2 {
+    margin-bottom: 10px;
+    color: #514E4E;
+}
+
+/* .experience-list > li{
+    margin-bottom: 8px;
+} */
+
+.github-icon {
+    display: inline;
+}
+
+.skills__list > li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* Rating styles base */
