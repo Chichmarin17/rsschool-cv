@@ -2,23 +2,42 @@
     font-family: Goose;
     src: url("fonts/19319.ttf");
 }
-.wrapper {
-    margin: 0 auto;
-    max-width: 800px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 16px;
-}
+
 ul > li {
     margin-bottom: 7px;
 }
 h2 {
     font-size: 22px;
 }
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+/* =====================
+      SIDEBAR SECTION*/
+.sidebar {
+    color: #fff;
+    background-color: #514E4E;    
+    border-radius: 0px 20px 20px 0px;
+}
+.sidebar-article {
+    margin: 0px 5px 20px 5px;
+}
+.sidebar-article > h2 {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Main photo */
 .main-photo {
     margin-bottom: 40px;
 }
@@ -30,19 +49,9 @@ h2 {
 .main-photo__caption {
     display: none;
 }
-.sidebar {
-    background-color: #514E4E;
-    color: #fff;
-    border-radius: 0px 20px 20px 0px;
-}
-.sidebar-article {
-    margin: 0px 5px 20px 5px;
-}
-.sidebar-article > h2 {
-    display: block;
-    margin-bottom: 10px;
+/* End of main photo */
 
-}
+/* Contacts */
 .contacts__list > li {
     display: flex;
     flex-direction: row;
@@ -62,8 +71,31 @@ h2 {
 .contacts__name:hover {
     color:#f1bb56;
 }
+/* Contacts end */
 
+/* Rating styles base */
+.skills__rating {
+	display: inline-block;
+	font-size: 0;
+}
+.skills__rating span {
+	padding: 0;
+	font-size: 20px;
+	line-height: 1;
+	color: lightgrey;
+}
+.skills__rating > span:before {
+	content: '★';
+}
+.skills__rating > span.rating-active {
+	color: gold;
+}
+/* End of rating styles */
+/* ==============
+    SIDEBAR END */
 
+/* ===============
+    MAIN SECTION */
 .main-content {
     display: flex;
     flex-direction: column;
@@ -72,8 +104,8 @@ h2 {
     padding-right: 20px;
 }
 .main-header {
-    text-align: center;
     margin: 30px 0px 30px 0px;
+    text-align: center;
 }
 .header-status {
     font-size: 18px;
@@ -109,24 +141,9 @@ mark {
     justify-content: space-between;
 }
 
-/* Rating styles base */
-.skills__rating {
-	display: inline-block;
-	font-size: 0;
-}
-.skills__rating span {
-	padding: 0;
-	font-size: 20px;
-	line-height: 1;
-	color: lightgrey;
-}
-.skills__rating > span:before {
-	content: '★';
-}
-.skills__rating > span.rating-active {
-	color: gold;
-}
-/* End of rating styles */
+/* ==================
+    MAIN END */
+
 
 /* Media for smartphones */
 @media screen and (max-width: 770px) {
